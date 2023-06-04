@@ -8,7 +8,7 @@
 
 ## Submitting changes
 
-By submitting changes to this repo you are also acknowledging and agree to the terms in both the [Developer Certificate of Origin (DCO) 1.1](https://developercertificate.org), the LICENSE file in the code repository, and [GitHub site policy](https://docs.github.com/en/site-policy).  License types vary across FacioQuo repositories; and when there is no LICENSE file, it means the code repository is private, proproprietary, and not open-source.  These are standard open-source terms and conditions.
+By submitting changes to this repo you are also acknowledging and agree to the terms in both the [Developer Certificate of Origin (DCO) 1.1](https://developercertificate.org), the LICENSE file in the code repository, and [GitHub site policy](https://docs.github.com/en/site-policy).  License types vary across FacioQuo repositories; and when there is no LICENSE file, it means the code repository is private, proprietary, and not open-source.  These are standard open-source terms and conditions.
 
 Do not commingle multiple contributions on different topics.  Please keep changes small and separate.
 
