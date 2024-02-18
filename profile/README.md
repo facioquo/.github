@@ -1,4 +1,4 @@
-FacioQuo is affiliated with [Skender Co.](https://skenderco.com), a U.S. based company.  Skender Co. is a core contributor to our open-source projects and the owner of this GitHub org.
+**FacioQuo** is affiliated with [Skender Co.](https://skenderco.com), a U.S. based company.  **Skender Co.** is a core contributor to our open-source projects and the owner of this GitHub org.
 
 Everyone is welcome to contribute to our public projects.
 
