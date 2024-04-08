@@ -1,4 +1,4 @@
-# Security Policy
+# Security policy
 
 All of our public non-archived repositories are supported with security updates.
 

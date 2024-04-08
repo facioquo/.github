@@ -6,14 +6,20 @@ labels: bug
 ---
 
 ### the problem
-
-A clear and succinct description of the bug and expected behavior.
+<!--
+Write a clear and succinct description
+of the bug and expected behavior.
 
 ```typescript
 // add code snippet, as needed
 const foo = "bar";
 [..]
 ```
+-->
+
+<!--
+When helpful, add steps to reproduce the problem
+and any error messages that can help with troubleshooting.
 
 ### steps to reproduce
 
@@ -27,4 +33,5 @@ Error message(s) or maleficent outcome:
 # Include any error messages if available.
 ```
 
-**Please delete this explanatory text when submitting.**
+Please delete these hidden explanatory comments when submitting.
+-->
