@@ -15,7 +15,7 @@ Do not commingle multiple contributions on different topics.  Please keep change
 When ready, submit a [Pull Request](https://help.github.com/pull-requests) with a clear list of what you've done.
 Always write a clear log message for incremental commits and in the Pull Request descriptions. One-line messages are fine for most incremental commits.
 
-After a Pull Request is reviewed, accepted, and [squash] merged to `main`, we may batch changes before releasing a new official version.  Please be patient with turnaround time.
+After a Pull Request is reviewed, accepted, and _squash merged_ to `main`, we may batch changes before releasing a new official version.  Please be patient with turnaround time.
 
 ## Code reviews and administration
 
