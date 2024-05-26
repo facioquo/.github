@@ -18,6 +18,8 @@ const foo = "bar";
 -->
 
 <!--
+### steps to reproduce
+
 When helpful, add steps to reproduce the problem
 and any error messages that can help with troubleshooting.
 
@@ -32,6 +34,20 @@ Error message(s) or maleficent outcome:
 ```bash
 # Include any error messages if available.
 ```
+-->
 
-Please delete these hidden explanatory comments when submitting.
+<!--
+If your request is urgent, please review our sponsorship tiers
+that come with prioritization of approved work.  Sponsorship is
+not a guarantee that we'll approve or implement your request,
+so please get pre-approval if that is your sponsorship intent.
+
+Sponsor us here: https://github.com/sponsors/facioquo
+
+If you require contract custom development, please contact
+our parent organization at https://skenderco.com
+-->
+
+<!--
+** Please delete these hidden explanatory comments when submitting.**
 -->
