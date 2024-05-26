@@ -26,6 +26,10 @@ Fixes:
 - # <-- add issue number(s) as a rendered list
 -->
 
+<!--
+If helpful, also include this checklist to communicate what you've done
+to prepare this Pull Request for acceptance.
+
 ### self-review checklist
 
 - [ ] My code follows the existing style, code structure, and naming taxonomy
@@ -34,6 +38,7 @@ Fixes:
 - [ ] I have added or updated unit tests that prove my code is effective and covered
 - [ ] My changes generate no new warnings or other code analysis issues
 - [ ] I have made corresponding changes to the documentation
+-->
 
 <!--
 We also recommend creating the pull request as early as possible,
