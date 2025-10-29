@@ -30,7 +30,6 @@ reviews:
   suggested_reviewers: false
   auto_assign_reviewers: false
 
-  # Automatic review scheduling
   auto_review:
     enabled: true
     drafts: false
@@ -76,7 +75,7 @@ reviews:
     issue_assessment:             # Linked issue assessment (default: warning)
       mode: off
     title:                        # PR title validation (default: warning)
-      mode: on
+      mode: warning
 
   # Files to include/exclude from reviews
   path_filters:
@@ -88,7 +87,7 @@ reviews:
     - "!*-lock.json"          # NPM/PNPM lock files
     - "!packages/"            # NuGet packages cache
     - "!.jekyll-cache/"       # Jekyll cache
-    - "!vendor/"              #  and gem files
+    - "!vendor/"              # Ruby vendor and gem files
     - "!Gemfile.lock"         # Ruby dependencies lock
     - "!bin/"                 # .NET build output
     - "!obj/"                 # .NET build intermediate files
@@ -152,9 +151,3 @@ knowledge_base:
     scope: "auto"
   mcp:
     usage: "auto"
-
-# TOOL INTEGRATIONS
-integration:
-  editorconfig: true              # Respect existing .editorconfig rules
-  dotnet_analyzers: true          # Work with existing analyzers
-  github_actions: true            # Coordinate with existing GitHub workflows
