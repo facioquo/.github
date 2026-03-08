@@ -3,3 +3,7 @@
 
 # NuGet lock files should always use LF
 **/packages.lock.json text eol=lf
+
+# Windows script files should use CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
