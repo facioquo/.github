@@ -1,0 +1,8 @@
+name: org-codeql-config
+
+queries:
+  - uses: security-and-quality
+
+query-filters:
+  - exclude:
+      id: actions/unpinned-tag
