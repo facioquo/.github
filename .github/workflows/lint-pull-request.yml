@@ -8,6 +8,7 @@ on:
     types:
       - opened
       - edited
+      - labeled
       - unlabeled
       - ready_for_review
 
@@ -110,4 +111,3 @@ jobs:
         with:
           header: pr-title-lint-error
           delete: true
-  
