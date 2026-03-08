@@ -23,4 +23,4 @@ If you want to contribute administratively, do code reviews, or provide general 
 
 ## Contact info
 
-Need help?  Contact us at [support@facioquo.com](mailto:support@facioquo.com).
+Need help?  [Contact us](https://forms.gle/cEtaHdF2tK3zSVLy8)
