@@ -1,29 +1,56 @@
-# top-most EditorConfig file
+# EditorConfig: https://EditorConfig.org
+
+# Top-level EditorConfig file
 root = true
 
-# global baselines
+#### Core EditorConfig Options ####
+
+# Global settings for all files
 [*]
 charset = utf-8
 end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
 
 indent_style = space
 indent_size = 2
 tab_width = 2
 
-line_length = 150
-max_line_length = 150
-trim_trailing_whitespace = true
-insert_final_newline = true
+# Disable max line length enforcement
+max_line_length = off
 
-[*.{csproj,props,targets}]
+#### File Type Overrides ####
+
+# Markdown files
+[*.md]
+
+# Allow trailing whitespace for line breaks
+trim_trailing_whitespace = false
+
+[*.sh]
+
 indent_style = space
 indent_size = 2
+tab_width = 2
 
-[*.yml]
+[*.{csproj,json,jsonc,xml,yaml,yml}]
+
 indent_style = space
 indent_size = 2
+tab_width = 2
 
+# Batch and command files
+[*.{cmd,bat}]
+# Use CRLF for Windows specific files
+end_of_line = crlf
+
+# .NET source files
 [*.{cs,vb}]
-tab_width = 4
+
+indent_style = space
 indent_size = 4
-end_of_line = lf
+tab_width = 4
+
+# .NET generated files
+[*.g.cs]
+generated_code = true
