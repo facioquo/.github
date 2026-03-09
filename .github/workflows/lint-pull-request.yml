@@ -3,8 +3,8 @@ name: Lint pull request
 on:
   pull_request_target:
     branches:
-      - "main"
-      - "v[0-9]*"
+      - main
+      - v[0-9]*
     types:
       - opened
       - edited
@@ -13,15 +13,14 @@ on:
       - ready_for_review
 
 concurrency:
-  group: >-
-    ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 permissions:
   pull-requests: write
 
 jobs:
-  lint:
+  title:
     runs-on: ubuntu-slim
     if: ${{ !github.event.pull_request.draft }}
 
