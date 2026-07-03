@@ -1,0 +1,33 @@
+{
+  "$schema": "vscode://schemas/tasks",
+  "version": "2.0.0",
+  "presentation": {
+    "clear": true,
+    "panel": "dedicated",
+    "showReuseMessage": false
+  },
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
+  "problemMatcher": [],
+  "tasks": [
+    {
+      "label": "Lint: Markdown (verify)",
+      "detail": "Verify Markdown formatting for all files",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "type": "shell",
+      "command": "npx markdownlint-cli2",
+      "problemMatcher": "$markdownlint"
+    },
+    {
+      "label": "Lint: Markdown (fix)",
+      "detail": "Auto-fix Markdown formatting for all files",
+      "type": "shell",
+      "command": "npx markdownlint-cli2 --fix",
+      "problemMatcher": "$markdownlint"
+    }
+  ]
+}
