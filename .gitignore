@@ -1,0 +1,7 @@
+# AI provider configs (local)
+.claude/*.local.*
+
+# Temporary files
+tmp/
+**/logs/
+.DS_Store
